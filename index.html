@@ -1,65 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css" />
     <title>Electronic Desire Gaming</title>
 </head>
+
 <body>
-
-    <header>
-        <img id="logo" src="./assets/462555237_1239141154030644_423656666371848418378_n.jpg" />
-        <input placeholder="Busque seus produtos aqui" class="barra de pesquisa"/>
-        <nav>
-            <ul>
-                <li>
-                    <img id="usuario" src="./assets/user-person-icon-689f9b.png" />
-                </li>
-
-                <li>
-                    <img id="carrinho" src="./assets/pngegg.png" />
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <div id="banner"></div>
-
-    <div class="produtos-card-container">
-        <div class="produtos">
-            <img src="./assets/console-playstation-5-sony-slim-branco-2-jogos-1000038899_1710512868_m.jpg" class="image-produtos" />
-        </div>
-
-        <div class="produtos">
-            <img src="./assets/placa-de-video-galax-geforce-rtx-3060-1-click-oc-15-gbps-12gb-gddr6-ray-tracing-dlss-36nol7md1voc_1614253646_m.jpg" class="image-produtos" />
-        </div>
-
-        <div class="produtos">
-            <img src="./assets/gabinete-gamer-rise-mode-galaxy-glass-standard-white-10-fans-argb-rm-ga-ggsw-argb_1685731687_m.jpg" class="image-produtos" />
-        </div>
-
-        <div class="produtos">
-            <img src="./assets/monitor-gamer-lg-ultragear-lg-34-curvo-led-wqhd-ultrawide-160hz-1ms-displayport-e-hdmi-amd-freesync-premium-hdr10-99-srgb-34gp63a-b_1717591886_m.jpg" class="image-produtos" />
-        </div>
-
-        <div class="produtos">
-            <img src="./assets/teclado-optico-mecanico-gamer-redragon-broadsword-pro-rgb-switch-redragon-blue-abnt-k588-rgb_1602177625_m.jpg" class="image-produtos" />
-        </div>
     
-    </div>
+    <div class="container">
+        <header>
+            <div class="barra-container">
+              <img id="logo" src="./assets/DALL·E 2024-11-21 00.36.00 - A modern and sleek logo with the letters EDG in a bold, dynamic font. The design should be minimalist and futuristic, with sharp angles and clean line.webp" />
+              <input type="text" placeholder="Busque seus produtos aqui" class="barra-de-pesquisa" />
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <img id="usuario" src="./assets/user-person-icon-689f9b.png" />
+                    </li>
+    
+                    <li>
+                        <img id="carrinho" src="./assets/pngegg.png" />
+                    </li>
+                </ul>
+            </nav>
+    
+        </header>
+    
+        <div id="banner"></div>
+    
+        <div class="produtos-card-container">
+            <div class="produtos">
+                <img src="./assets/console-playstation-5-sony-slim-branco-2-jogos-1000038899_1710512868_m.jpg"
+                    class="image-produtos" />
+                <p class="paragrafo"><b>Console PlayStation 5 Slim Sony, SSD 1TB, Com Controle Sem Fio DualSense, Branco...</b></p>                
+                  <p class="preço"><b>R$ 3.347,07</b></p>
+                <button class="botao">Comprar</button>
+            </div>
+    
+            <div class="produtos">
+                <img src="./assets/placa-de-video-galax-geforce-rtx-3060-1-click-oc-15-gbps-12gb-gddr6-ray-tracing-dlss-36nol7md1voc_1614253646_m.jpg"
+                    class="image-produtos" />
+                <p class="paragrafo"><b>Placa de Vídeo RTX 3060 1-Click OC Galax NVIDIA GeForce, 12GB GDDR6, LHR, DLSS, Ray Tracing</b></p>
+                  <p class="preço"><b>R$ 1.639,99</b></p>
+                <button class="botao">Comprar</button>
+            </div>
+    
+            <div class="produtos">
+                <img src="./assets/gabinete-gamer-rise-mode-galaxy-glass-standard-white-10-fans-argb-rm-ga-ggsw-argb_1685731687_m.jpg"
+                    class="image-produtos" />
+                <p class="paragrafo"><b>Gabinete Gamer Rise Mode Galaxy Glass Standard, Mid Tower, ARGB, ATX, Lateral...</b></p> 
+                  <p class="preço"><b>R$ 519,90</b></p>
+                <button class="botao">Comprar</button>
+            </div>
+    
+            <div class="produtos">
+                <img src="./assets/monitor-gamer-lg-ultragear-lg-34-curvo-led-wqhd-ultrawide-160hz-1ms-displayport-e-hdmi-amd-freesync-premium-hdr10-99-srgb-34gp63a-b_1717591886_m.jpg"
+                    class="image-produtos" />
+                <p class="paragrafo"><b>Monitor Gamer Curvo LG UltraGear LG 34", UltraWide, 160Hz, WQHD, 1ms, DisplayPort...<b></p>
+                    <p class="preço"><b>R$ 1.927,99</b></p>
+                <button class="botao">Comprar</button>
+            </div>
+    
+            <div class="produtos">
+                <img src="./assets/teclado-optico-mecanico-gamer-redragon-broadsword-pro-rgb-switch-redragon-blue-abnt-k588-rgb_1602177625_m.jpg"
+                    class="image-produtos" />
+                <p class="paragrafo"><b>Teclado Óptico-Mecânico Gamer Redragon BroadSword Pro RGB, Switch Redragon Blue</b></p>
+                  <p class="preço"><b>R$ 359,99</b></p>
+                <button class="botao">Comprar</button>
+            </div>
+    
+        </div>
 
-    <div class="personagens-cards-container">
-        <div class="cards-contant">
-            <div class="card banner-1"></div>
-            <div class="card banner-2"></div>
-            <div class="card banner-3"></div>
-            <div class="card banner-4"></div>
-            <div class="card banner-5"></div>
+        
+        <div class="marcas-cards-container">
+            <div class="titulo-cards-container">
+                <div class="titulo-marcas">
+                    <p>MARCAS RECOMENDADAS👍</p>
+                </div>
+            </div>
 
+        <div class="marcas-contant">
+            <div class="card banner-1">
+                <img src="./assets/91731510485.jpg" class="marcas-image" />
+            </div>
+        
+            <div class="card banner-2">
+                <img src="./assets/01731940231.jpg" class="marcas-image" />
+            </div>
+        
+            <div class="card banner-3">
+                <img src="./assets/61731940009.jpg" class="marcas-image" />
+            </div>
+        
+            <div class="card banner-4">
+                <img src="./assets/81731940195.jpg" class="marcas-image" />
+            </div>
+        
+            <div class="card banner-5">
+                <img src="./assets/71731351617.jpg" class="marcas-image" />
+            </div>
+        
+            <div class="card banner-6">
+                <img src="./assets/21731940069.jpg" class="marcas-image" />
+            </div>
         </div>
     </div>
+
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./assets/DALL·E 2024-11-21 00.36.00 - A modern and sleek logo with the letters EDG in a bold, dynamic font. The design should be minimalist and futuristic, with sharp angles and clean line.webp" />
+        <spam>Todos os direitos reservados ©</spam>
+    </footer>    
 
 
 </body>
+
 </html>
