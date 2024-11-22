@@ -12,26 +12,32 @@
     
     <div class="container">
         <header>
-            <div class="barra-container">
-              <img id="logo" src="./assets/DALL·E 2024-11-21 00.36.00 - A modern and sleek logo with the letters EDG in a bold, dynamic font. The design should be minimalist and futuristic, with sharp angles and clean line.webp" />
-              <input type="text" placeholder="Busque seus produtos aqui" class="barra-de-pesquisa" />
+            <div class="menu-icon">☰</div>
+            <div class="logo">
+                <img src="./assets/logo.jpg" alt="Logo" />
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <img id="usuario" src="./assets/user-person-icon-689f9b.png" />
-                    </li>
-    
-                    <li>
-                        <img id="carrinho" src="./assets/pngegg.png" />
-                    </li>
-                </ul>
-            </nav>
-    
+            <div class="search-bar">
+                <input type="text" placeholder="Busque seus produtos aqui!" />
+                <button type="submit">➤➤</button>
+            </div>
+            <div class="user-options">
+                <a href="#"><b>Entre ou Cadastre-se</b></a>
+                <span class="icons">
+                    <span title="Acessibilidade"><img class="acessibilidade" src="./assets/assecibilidade.png"/></span>
+                    <span title="Ajuda"><img class="ajuda" src="./assets/supotimage.png"/></span>
+                    <span title="Favoritos"><img class="favorito" src="./assets/favorite copy.png"/></span>
+                    <span title="Carrinho"><img class="carrinho" src="./assets/carrinho.png"/></span>
+                </span>
+            </div>
         </header>
     
         <div id="banner"></div>
     
+        <div class="titulo-produtos-container">
+            <div class="titulo-produtos">
+                <p><b>ESQUENTA BLACK🖤</b></p>
+            </div>
+        </div>
         <div class="produtos-card-container">
             <div class="produtos">
                 <img src="./assets/console-playstation-5-sony-slim-branco-2-jogos-1000038899_1710512868_m.jpg"
@@ -76,13 +82,12 @@
         </div>
 
         
-        <div class="marcas-cards-container">
-            <div class="titulo-cards-container">
-                <div class="titulo-marcas">
-                    <p>MARCAS RECOMENDADAS👍</p>
-                </div>
+        <div class="titulo-cards-container">
+            <div class="titulo-marcas">
+                <p>MARCAS RECOMENDADAS👍</p>
             </div>
-
+        </div>
+        <div class="marcas-cards-container">
         <div class="marcas-contant">
             <div class="card banner-1">
                 <img src="./assets/91731510485.jpg" class="marcas-image" />
@@ -111,7 +116,7 @@
     </div>
 
     <footer>
-        <img style="object-fit: contain;" id="logo" src="./assets/DALL·E 2024-11-21 00.36.00 - A modern and sleek logo with the letters EDG in a bold, dynamic font. The design should be minimalist and futuristic, with sharp angles and clean line.webp" />
+        <img style="object-fit: contain; width: 250px; cursor: pointer;" id="logo" src="./assets/logodosite2.png" />
         <spam>Todos os direitos reservados ©</spam>
     </footer>    
 
